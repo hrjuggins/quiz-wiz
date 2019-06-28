@@ -1,0 +1,53 @@
+.row {
+  margin-bottom: 25px;
+}
+.card-body {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+    color: #fff;
+    background-color: #8BC34A;
+}
+.card-body a {
+  margin: 5px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+label.btn-primary {
+  margin: 5px;
+  border-radius: 5px;
+  background: none;
+  color: #333;
+  border-color: #333;
+  width: 45%;
+}
+label.btn-danger {
+  margin: 5px;
+  width: 45%;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active {
+  color: #fff;
+  background-color: #8BC34A;
+  border-color: #8BC34A;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #8BC34A;
+  border-color: #8BC34A;
+}
+#result {
+  justify-content: center;
+}
+#replay {
+  display: none;
+  justify-content: center;
+}
